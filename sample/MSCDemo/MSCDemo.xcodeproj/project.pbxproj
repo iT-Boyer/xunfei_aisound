@@ -11,8 +11,6 @@
 		52D1CD061AF1E7670075D0A6 /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1CD051AF1E7670075D0A6 /* AKPickerView.m */; };
 		52D282361AEB652B00D4AD4B /* SAMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D282331AEB652B00D4AD4B /* SAMath.m */; };
 		52D282371AEB652B00D4AD4B /* SAMultisectorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D282351AEB652B00D4AD4B /* SAMultisectorControl.m */; };
-		840C08D5206DDEBE00D6F473 /* aitalk in Resources */ = {isa = PBXBuildFile; fileRef = 840C08D2206DDEBD00D6F473 /* aitalk */; };
-		840C08D6206DDEBE00D6F473 /* ivw in Resources */ = {isa = PBXBuildFile; fileRef = 840C08D3206DDEBD00D6F473 /* ivw */; };
 		840C08D7206DDEBE00D6F473 /* aisound in Resources */ = {isa = PBXBuildFile; fileRef = 840C08D4206DDEBD00D6F473 /* aisound */; };
 		845FA02B1AFC5186008447CE /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F9FF91AFC5186008447CE /* IATConfig.m */; };
 		845FA02C1AFC5186008447CE /* IATConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F9FFB1AFC5186008447CE /* IATConfigViewController.m */; };
@@ -497,7 +495,7 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					E9706F31175F383E003B76FC = {
-						DevelopmentTeam = 9CA5KUE8T7;
+						DevelopmentTeam = C556M74S8M;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -512,6 +510,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				"zh-Hans",
 			);
@@ -530,9 +529,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840C08D5206DDEBE00D6F473 /* aitalk in Resources */,
 				AD8FF4A61BCCF2A000D276DD /* Images.xcassets in Resources */,
-				840C08D6206DDEBE00D6F473 /* ivw in Resources */,
 				84A85DC01B4D0E780056929E /* bnf in Resources */,
 				E9706F41175F383E003B76FC /* InfoPlist.strings in Resources */,
 				BF9B49DD1F668E1C001AE34A /* Main.storyboard in Resources */,
@@ -708,7 +705,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CA5KUE8T7;
+				DEVELOPMENT_TEAM = C556M74S8M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -747,7 +744,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CA5KUE8T7;
+				DEVELOPMENT_TEAM = C556M74S8M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
